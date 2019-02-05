@@ -1,3 +1,7 @@
+% I hereby confirm that I know UiBs guidelines for ethics in regards to 
+% the education and that I have written this submission.
+% Olav Gjerde
+
 function [total] = midpointSum(func, lowerBound, upperBound, nSplits)
 %midpointSum calculates the riemann midpoint sum
     deltaX = (upperBound - lowerBound) / nSplits;

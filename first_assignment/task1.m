@@ -1,5 +1,9 @@
 % TASK 1
 
+% I hereby confirm that I know UiBs guidelines for ethics in regards to 
+% the education and that I have written this submission.
+% Olav Gjerde
+
 % PART 1
 load julaftentemperaturer.mat
 

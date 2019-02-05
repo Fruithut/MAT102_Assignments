@@ -1,4 +1,9 @@
 % TASK 2
+
+% I hereby confirm that I know UiBs guidelines for ethics in regards to 
+% the education and that I have written this submission.
+% Olav Gjerde
+
 format long
 
 % PART 1
@@ -7,13 +12,13 @@ f = @(x) 1/x;
 disp(midpointSum(f, 0, 2, 10));
 
 % PART 2
-% n=10 : 4.266
-% n=100 : 6.5686
-% n=10000 : 11.1738
+% n=10 : 4.266, n=100 : 6.5686, n=10000 : 11.1738
 % That midTotal grows as n -> infinity makes sense since smaller increments
 % means that we evaluate f(x) at values for x which are closer to 0 which 
 % means that the result will be larger. 
 % This comes from the fact that lim (1/x) -> infinity as x -> 0 (from the right side).
+disp(midpointSum(f, 0, 2, 100));
+disp(midpointSum(f, 0, 2, 10000));
 
 % PART 3
 % Here it looks like the integral is slowly approaching 1.
