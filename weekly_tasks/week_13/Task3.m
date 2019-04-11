@@ -5,12 +5,7 @@ funcG = @(x,y,z,t) -2*x + y;
 funcH = @(x,y,z,t) -2*x + z - 1;
 xStart = -1; yStart = 0; zStart = 1;
 
-X = [x y z]';
-
 [x,y,z,t] = eulerSystemOfThree(funcF, funcG, funcH, ...
                                xStart, yStart, zStart, ...
                                0.0001, 20000);
-x(end)
-y(end)
-z(end)
 plot(t,x,t,y,t,z)
